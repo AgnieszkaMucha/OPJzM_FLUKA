@@ -11,11 +11,11 @@ Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik prz
 
 Zakres możliwości aplikacyjnych programu FLUKA obejmuje mi.in. zderzanie wiązek protonów lub elektronów, projektowanie geometrii tarczy i zastosowanych osłon, obliczenia kalorymetryczne, dozymetryczne, projektowanie detektorów, planowanie radioterapii, itd.
 FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach od energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). <br>
-Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php). <br>
+Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](https://fluka.cern/). <br>
 
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
-- Ze swojego konta na `taurusie` należy zalogować się na swoje konto na serwerze `lhcb1`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
+- Ze swojego konta na `taurusie` należy zalogować się na swoje konto na serwerze `lhcbgpu2`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
 - Na `lhcb` wykonać skrypt startowy:
 ```bash
  source setfluka
@@ -88,7 +88,7 @@ Można zuważyć, że zadanie wykonuje się w tzw. cyklach - im większa liczba 
 
 Po uzyskaniu wiadomości `Finished OK` możemy oglądnąć wyniki. Jeśli dostaniemy cokolwiek innego, np: `TIMEOUT` - mamy błąd w pliku inputowym (najczęściej: za dużo przedziałów w rozkładach 3D, brak kropki po liczbie całkowitej, niezdefiniowany materiał, region, itp). Wracamy do `Input` i zaczynamy analizę i poprawę  pliku. Może się tu zdarzyć, że `TIMEOUT` ma przyczynę systemową - brak biblioteki. Staramy się to sprawdzać, ale historia nas nauczyła, że takie zdarzenia pojawiają się nieoczekiwanie. 
 
-Gdy jest `Finished OK`, kliknijmy na: `Run->Files` i `Run->Data`- zobaczymy pliki outputowe. Widać w nazwach numery _jednostek logicznych_, które zdefiniowaliśmy w pliku inputowym, zauważymy również, że Fluka zapisała wyniki OSOBNO dla każdego cyklu. Jest to pozostałość po zamierzchłych czasach, kiedy komputery liczyły wolno i często się zawieszały - w takiej sytuacji można było wykorzystać fragment skończonej symulacji. Po zastanowieniu wydaje się to logiczne. 
+Gdy jest `Finished OK`, kliknijmy na: `Run->Files` i `Run->Data`- zobaczymy pliki outputowe. Widać w nazwach numery _jednostek logicznych_, które zdefiniowaliśmy w pliku inputowym, zauważymy również, że Fluka zapisała wyniki OSOBNO dla każdego cyklu. Cykle można traktować, jak kolejne eksperymenty, czyli wraz z ich zwiększoną liczbą, zmniejszamy niepewności i wpływ fluktuacji statystycznych. W dodatku, jak symulacja się zawiesi - można wykorzystać skończone cykle Po zastanowieniu wydaje się to logiczne. 
 
 Musimy teraz połączyć wyniki. W tym celu klikamy `Run->Data->Process` i czekamy na zielone okienko informujące, ile i jakie pliki outputowe są łączone. Widok powinien być taki:
 
