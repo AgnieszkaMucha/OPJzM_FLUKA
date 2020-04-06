@@ -7,7 +7,7 @@
    II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT).
 
 ## Wymagania dla studentów:
-Laboratorium odbywać się będzie w godz. 8-10:30 w terminach: 8.05, 15.05, 22.05, 29.05 (sala 207/D10) .
+Laboratorium odbywać się będzie w formie, dniach i godzinach ustalonych z prowadzącą.
 
 Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
@@ -20,7 +20,7 @@ Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekt
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
-Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i  analizy danych (ROOT), tam umieszczone są zasoby do ćwiczeń. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
+Upewnij się, że posiadasz konto na serwerze `lhcbgpu2`, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i  analizy danych (ROOT), tam umieszczone są zasoby do ćwiczeń. Sprawdź [konto na lhcbgpu2](lhcb1.md) teraz!
 
 ## Ćwiczenia laboratoryjne I:
 1. [Start-zaczynamy pracę z FLUKĄ](Start.md)
