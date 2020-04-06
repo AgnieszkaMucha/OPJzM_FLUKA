@@ -15,7 +15,7 @@ Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tut
 
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
-- Ze swojego konta na `taurusie` należy zalogować się na swoje konto na serwerze `lhcbgpu2`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
+- Ze swojego konta na `taurusie` należy zalogować się na swoje konto na serwerze `lhcbgpu2`. Problem z kontem? Sprawdź [lhcbgpu2](lhcb1.md).
 - Na `lhcb` wykonać skrypt startowy:
 ```bash
  source setfluka
@@ -79,7 +79,7 @@ Fluka ma swoje ograniczenia, czasem wynikające z jej fortranowskiego pochodzeni
 
 
 ## Wykonanie symulacji
-Po stworzeniu pliku inputowego puszczany symulację klikając:
+Po stworzeniu pliku inputowego trzeba zapisać projekt `Flair->Save` i można rozpocząć symulację klikając:
 ```
 Run->Runs->Start
 ```
