@@ -34,7 +34,8 @@ Input->New->basic
 ```
 W ten sposób dostajemy podpowiedź, z czego powinien się składać plik inputowy i możemy go dostosować do własnego problemu.
 
-Plik wsadowy INPUT jest tworzony w standardzie ASCII z rozszerzeniem `.inp` .
+Plik wsadowy INPUT jest tworzony w standardzie ASCII z rozszerzeniem `.inp` , 
+[input](https://flukafiles.web.cern.ch/flukafiles/manual/2.3.1.html).
 Plik INPUT składa się z komend (opcji), każda z nich zawiera jedną lub więcej linii (z przyczyn historycznych nazywanych „kartami”). Poza komendami FLUKI plik wsadowy powinien także zawierać opis geometrii projektowanej symulacji.
 Typowa struktura pliku INPUT:
 - tytuły i komentarze,
