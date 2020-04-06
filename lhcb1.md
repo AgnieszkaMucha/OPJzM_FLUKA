@@ -2,7 +2,7 @@
 
 ## Serwer lhcbgpu2
 
-Instalacja FLUKI wraz z nakłądką graficzną Flair na swoim lokalnym komputerze jest skomplikowana. Jeśli jednak jesteś gotowy(a) na wyzwania, możesz spróbować procedury opisanej tutaj: [FLUKA](https://fluka.cern/), [FLAIR] (https://flair.web.cern.ch/flair/tutorial_fluka.html). Trzeba zarejestrować się przynależnością do odpowiedniej instytucji. <br>
+Instalacja FLUKI wraz z nakłądką graficzną Flair na swoim lokalnym komputerze jest skomplikowana. Jeśli jednak jesteś gotowy(a) na wyzwania, możesz spróbować procedury opisanej tutaj: [FLUKA](https://fluka.cern/), [FLAIR](https://flair.web.cern.ch/flair/tutorial_fluka.html). Trzeba zarejestrować się przynależnością do odpowiedniej instytucji. <br>
 
 Na potrzeby studentów FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`lub z dowolnego terminala w systemie linux lub VM. 
 Używając MobaXterm, proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
