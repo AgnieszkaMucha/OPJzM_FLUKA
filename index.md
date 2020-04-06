@@ -1,5 +1,5 @@
 
-# Laboratorium Oddziaływania Promieniowania Jonizującego z Materią
+# Laboratorium Oddziaływania Promieniowania Jonizującego z Materią 2020
 
 ## Cel laboratorium:
    I. Badania oddziaływania fotonów, ciężkich i lekkich cząstek naładowanych i neutralnych, o niskich i wysokich energiach, z różnymi rodzajami materiałów (symulacja programem FLUKA).
@@ -7,7 +7,7 @@
    II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT).
 
 ## Wymagania dla studentów:
-Laboratorium odbywać się będzie w formie, dniach i godzinach ustalonych z prowadzącą.
+Laboratorium odbywać się będzie w formie, dniach i godzinach ustalonych z prowadzącą w odpowiednim czasie.
 
 Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
