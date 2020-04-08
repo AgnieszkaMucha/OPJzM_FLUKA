@@ -14,7 +14,7 @@ Dalej już postępuje się tak samo niezależnie, czy mamy okno z linuxa, czy z 
 ```
 ssh -XY fluka-labXX@lhcbgpu2
 ```
-Nazwy kont to: `hep-lab0X@lhcb1`, gdzie X- oznacza numer zespołu. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
+Nazwy kont to: `fluka-labXX@lhcbgpu2`, gdzie XX- oznacza numer studenta. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
 
 ```
