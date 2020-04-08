@@ -17,7 +17,7 @@ Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tut
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
 - Ze swojego konta na `taurusie` należy zalogować się na swoje konto na serwerze `lhcbgpu2`. Problem z kontem? Sprawdź [lhcbgpu2](lhcb1.md).
 
-- Stworzyć i przejść do swojego katalogu roboczego:
+- Stworzyć i przejść do swojego katalogu roboczego,
 - Uruchomić program FLAIR komendą:
 ```bash
  flair &
