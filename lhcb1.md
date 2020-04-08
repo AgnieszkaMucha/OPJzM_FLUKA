@@ -19,7 +19,7 @@ Nazwy kont to: `fluka-labXX@lhcbgpu2`, gdzie XX- oznacza numer studenta. Hasła 
 ## Zaczynamy!
 Proszę najpierw założyć wygodną dla siebie strukturę katalogów. Uruchamiamy środowisko `Flair` komendą:
 ```
-Flair &
+flair &
 ```
 i przystępujemy do wykonania pierwszego zadania: [START](Start.md).
 
