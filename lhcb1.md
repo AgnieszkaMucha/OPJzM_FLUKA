@@ -16,8 +16,6 @@ ssh -XY fluka-labXX@lhcbgpu2
 ```
 Nazwy kont to: `fluka-labXX@lhcbgpu2`, gdzie XX- oznacza numer studenta. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
-
-```
 ## Zaczynamy!
 Proszę najpierw założyć wygodną dla siebie strukturę katalogów. Uruchamiamy środowisko `Flair` komendą:
 ```
